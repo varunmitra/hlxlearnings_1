@@ -9,11 +9,6 @@
 }
 
 .cards > ul > li {
-    border: 1px solid var(--highlight-background-color);
-    background-color: #ededed;
-}
-
-.cards .cards-card-body {
     text-align: center;
     display: flex;
     align-items: center;
@@ -22,6 +17,12 @@
     padding-bottom: 1em;
     margin-top:0em;
         margin-bottom: 0.25em;
+    
+}
+
+.cards .cards-card-body {
+    text-align: center;
+   
 }
 
 .cards .cards-card-image {
