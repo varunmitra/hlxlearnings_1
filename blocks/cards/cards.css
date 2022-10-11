@@ -9,7 +9,7 @@
 
 .cards > ul > li {
     border: 1px solid var(--highlight-background-color);
-    background-color: var(--background-color)
+    background-color: #ededed;
 }
 
 .cards .cards-card-body {
@@ -17,6 +17,18 @@
 }
 
 .cards .cards-card-image {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
+}
+
+.cards .cards-card-body > *:first-child {
+    margin-top: 0;
+}
+
+.cards > ul > li img {
+    border-radius: 50%;
     margin-top: 0px;
     object-fit: cover;
     object-position: top;
@@ -27,14 +39,4 @@
         -moz-transition: all .2s;
         -o-transition: all .2s;
     transition: all .25s;
-}
-
-.cards .cards-card-body > *:first-child {
-    margin-top: 0;
-}
-
-.cards > ul > li img {
-    width: 75%;
-    object-fit: cover;
-    border-radius: 50%;
 }
