@@ -27,8 +27,7 @@
         font-family: Sans-Serif;
         text-transform: uppercase;
         text-align: center;
-        font-size: 1rem;
-        
+        font-size: 1rem;      
      
    
 }
@@ -43,7 +42,7 @@
 .cards .cards-card-body > *:first-child {
     margin-top: 0;
 }
-.cards .cards-card-body > h3 {
+.cards .cards-card-body h3 {
     font-size:1rem;
 }
 .cards > ul > li img {
