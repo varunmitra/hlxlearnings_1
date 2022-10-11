@@ -17,8 +17,9 @@ export default function decorate(block) {
     }
   }
       else div.className = 'cards-card-body';
-      social = 0;
+      
     });
+    social = 0;
     ul.append(li);
   });
   ul.querySelectorAll('img').forEach((img) => img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }])));
