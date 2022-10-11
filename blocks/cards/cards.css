@@ -1,3 +1,4 @@
+
 .cards > ul {
     list-style: none;
     margin: 0;
@@ -13,7 +14,14 @@
 }
 
 .cards .cards-card-body {
-    margin: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    margin-top:0em;
+        margin-bottom: 0.25em;
 }
 
 .cards .cards-card-image {
@@ -29,14 +37,7 @@
 
 .cards > ul > li img {
     border-radius: 50%;
-    margin-top: 0px;
+    height:164px;
+    width: 164px;
     object-fit: cover;
-    object-position: top;
-    height: 400px;
-    border-radius: 50%;
-    width: 100%;
-        -webkit-transition: all .2s;
-        -moz-transition: all .2s;
-        -o-transition: all .2s;
-    transition: all .25s;
 }
