@@ -61,7 +61,7 @@
 .cards .cards-card-body a {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
    
  }
 .cards .cards-card-body a img {
