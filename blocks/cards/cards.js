@@ -12,7 +12,7 @@ export default function decorate(block) {
           div.className = 'cards-card-image';
           social = 1;   
      }
-     else if (div.children.length > 2 && div.querySelector('picture') && social == 1) div.className = 'cards-card-social';
+     else if (div.children.length > 3 && div.querySelector('picture') && social == 1) div.className = 'cards-card-social';
 
      else div.className = 'cards-card-body';
       
