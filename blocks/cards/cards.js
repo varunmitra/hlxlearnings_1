@@ -12,8 +12,10 @@ export default function decorate(block) {
     {
       div.className = 'cards-card-image';
       social = 1;
-    } else if(social == 1)
+    } else if(div.querySelector('picture') && social == 1){
         div.className ='cards-cards-social';
+        social = 0;
+    }
       else div.className = 'cards-card-body';
     });
     ul.append(li);
