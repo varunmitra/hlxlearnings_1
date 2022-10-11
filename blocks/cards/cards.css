@@ -60,6 +60,7 @@
 }
 .cards .cards-card-body img {
    display: flex;
+   flex-direction: row;
    height: 50px;
    width:50px;
    justify-content: center;
