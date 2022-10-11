@@ -21,7 +21,6 @@
 
 .cards .cards-card-body {
      display: flex;
-        width: 84px;
         padding-top: 8px;
         content: '';
         border-bottom: 2px solid;
@@ -40,9 +39,7 @@
 .cards .cards-card-body > *:first-child {
     margin-top: 0;
 }
-.cards .cards-card-body > *:second-child {
-    margin-top: 0;
-}
+
 .cards > ul > li img {
     border-radius: 50%;
     height:164px;
