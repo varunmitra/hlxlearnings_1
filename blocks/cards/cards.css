@@ -44,6 +44,8 @@
 }
 .cards .cards-card-body h3 {
     font-size:1rem;
+    text-align: center;
+    margin-bottom: 32px;
 }
 .cards > ul > li img {
     border-radius: 50%;
