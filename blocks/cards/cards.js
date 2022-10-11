@@ -8,7 +8,7 @@ export default function decorate(block) {
     const li = document.createElement('li');
     li.innerHTML = row.innerHTML;
     [...li.children].forEach((div) => {
-      document.write(div.children.length);
+      
       if (div.children.length === 1 && div.querySelector('picture')) {     
           div.className = 'cards-card-image';
           
