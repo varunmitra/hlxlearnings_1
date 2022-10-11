@@ -13,9 +13,7 @@ export default function decorate(block) {
           div.className = 'cards-card-image';
           
      }
-    else if (div.children.length === 3 && div.querySelector('picture')){
-      div.className = 'cards-card-social';
-     }
+   
      else div.className = 'cards-card-body';
      
     });
