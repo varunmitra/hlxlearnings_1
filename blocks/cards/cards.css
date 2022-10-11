@@ -10,8 +10,7 @@
 
 .cards > ul > li {
     
-    display: flex;
-     align-items: center;
+    align-items: center;
     justify-content: center;
     padding-top: 0.5em;
     padding-bottom: 1em;
@@ -21,7 +20,7 @@
 }
 
 .cards .cards-card-body {
-     display: block;
+     display: flex;
         width: 84px;
         padding-top: 8px;
         content: '';
