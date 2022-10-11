@@ -52,6 +52,12 @@
     text-align: center;
     margin-bottom: 32px;
 }
+.cards .cards-card-body img {
+   display: flex;
+   height: 10px;
+   width:10px;
+   justify-content: center;
+}
 .cards > ul > li img {
     border-radius: 50%;
     height:164px;
