@@ -8,10 +8,10 @@ export default function decorate(block) {
     const li = document.createElement('li');
     li.innerHTML = row.innerHTML;
     [...li.children].forEach((div) => {
-      if (div.children.length === 1 && div.querySelector('picture') && social == 0) 
+      if (div.children.length === 1 && div.querySelector('picture')) 
     {
       div.className = 'cards-card-image';
-      social = 1;
+     
     } 
       else div.className = 'cards-card-body';
     });
