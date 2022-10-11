@@ -38,7 +38,13 @@
     flex: 1;
     justify-content: center;
 }
-
+.cards > ul > li img {
+    border-radius: 50%;
+    height:164px;
+    width: 164px;
+    object-fit: cover;
+   
+}
 .cards .cards-card-body > *:first-child {
     margin-top: 0;
 }
@@ -57,11 +63,5 @@
    height: 10px;
    width:10px;
    justify-content: center;
-}
-.cards > ul > li img {
-    border-radius: 50%;
-    height:164px;
-    width: 164px;
-    object-fit: cover;
-   
+   border-radius: 0px;
 }
