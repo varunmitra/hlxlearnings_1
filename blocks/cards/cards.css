@@ -58,11 +58,15 @@
     text-align: center;
     margin-bottom: 32px;
 }
-.cards .cards-card-body img {
-   display: flex;
-   flex-direction: row;
+.cards .cards-card-body a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+ }
+.cards .cards-card-body a img {
+   
    height: 50px;
    width:50px;
-   justify-content: center;
    border-radius: 0px;
 }
