@@ -58,11 +58,15 @@
     text-align: center;
     margin-bottom: 32px;
 }
-
-.cards .cards-cards-social{
+.cards .cards-card-body a {
     display: flex;
     flex-direction: column;
-    height: 50px;
+    
+   
+ }
+.cards .cards-card-body a img {
+   
+   height: 50px;
    width:50px;
    border-radius: 0px;
 }

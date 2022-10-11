@@ -2,7 +2,7 @@ import { createOptimizedPicture } from '../../scripts/scripts.js';
 
 export default function decorate(block) {
   /* change to ul, li */
-  let social = 0;
+  
   const ul = document.createElement('ul');
   [...block.children].forEach((row) => {
     const li = document.createElement('li');
@@ -12,10 +12,7 @@ export default function decorate(block) {
     {
       div.className = 'cards-card-image';
       social = 1;
-    } else if(div.querySelector('picture') && social == 1){
-        div.className ='cards-cards-social';
-        social = 0;
-    }
+    } 
       else div.className = 'cards-card-body';
     });
     ul.append(li);
