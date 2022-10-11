@@ -43,7 +43,9 @@
 .cards .cards-card-body > *:first-child {
     margin-top: 0;
 }
-
+.cards .cards-card-body > h3 {
+    font-size:1rem;
+}
 .cards > ul > li img {
     border-radius: 50%;
     height:164px;
