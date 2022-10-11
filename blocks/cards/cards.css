@@ -59,8 +59,11 @@
     margin-bottom: 32px;
 }
 
-.cards .cards-card-body social{
+.cards cards-card-social{
     display: flex;
     flex-direction: column;
+    height: 50px;
+   width:50px;
+   border-radius: 0px;
 
 } 
