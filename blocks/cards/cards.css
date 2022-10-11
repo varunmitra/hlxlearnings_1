@@ -20,9 +20,8 @@
 }
 
 .cards .cards-card-body {
-     display: flex;
-        padding-top: 8px;
-        content: '';
+     
+        padding-top: 8px;        
         border-bottom: 2px solid;
         font-family: Sans-Serif;
         text-transform: uppercase;
