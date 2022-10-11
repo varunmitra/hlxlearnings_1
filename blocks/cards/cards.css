@@ -47,6 +47,11 @@
     text-align: center;
     margin-bottom: 32px;
 }
+.cards .cards-card-body h5 {
+    font-size:1rem;
+    text-align: center;
+    margin-bottom: 32px;
+}
 .cards > ul > li img {
     border-radius: 50%;
     height:164px;
