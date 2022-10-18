@@ -59,10 +59,19 @@
     margin-bottom: 32px;
 }
 
-.cards .cards-card-social{
-    
-    height: 50px;
-   width:50px;
+.cards .cards-cards-social{
+
+   height: 50px;
+   width:180px;
    border-radius: 0px;
+   display: grid;
+   grid-auto-flow: column;
+   grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+   grid-gap:0;
 
 } 
+.cards .cards-cards-social picture img{
+        height: 50px;
+        width: 50px;
+        border-radius: 0px;
+ } 
